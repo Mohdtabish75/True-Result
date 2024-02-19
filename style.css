@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgba(124, 235, 32, 0.855);
+    color: black;
+    height: 50px;
+}
+#logo img{
+    width: 100px;
+    height: 50px;
+    border-radius: 40px 0 40px 0;
+}
+#logo h2{
+    float: right;
+    margin-top: 10px;
+    margin-right: 5px;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: green;
+    font-weight: 700;
+    font-size: 24px;
+}
+.image img{
+    width: 100%;
+    height: 30vh;
+    border-radius: 50px 0 50px 0;
+}
+.heading h1{
+    text-align: center;
+    font-weight: 900;
+}
+#Services{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#shugar{
+    width: 160px;
+    text-align: center;
+    box-shadow: 5px 5px 10px grey;
+    margin: 10px;
+    border-radius: 4px;
+}
+#shugar img{
+    width: 150px;
+    height: 100px;
+}
+p{
+    font-size: 22px;
+    font-weight: 700;
+    background-color: rgb(8, 238, 161);
+    border-radius: 4px;
+}
+
+.touheed-img,p{
+    background-color: rgb(10, 239, 166);
+    font-size: 16px;
+}
+.touheed-img img{
+    margin-top: 10px;
+    width: 100%;
+    height: 30vh;
+}
+.touheed h1{
+    text-align: center;
+    /* display: inline; */
+    background-color: greenyellow;
+}
+.touheed p{
+    font-size: 16px;
+    border-radius: 0;
+    background-color: cadetblue;
+}
+.click{
+    text-align: center;
+}
+.container{
+    display: flex;
+    border: 2px solid white;
+    justify-content: center;
+    color: green;
+    box-shadow: 6px 6px 12px 2px gray ;
+    margin: 15px;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input[type="text"]{
+    width: 80vw;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+button{
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+}
+button:hover{
+    background-color: #0056b3;
+}
+.footer{
+    background-color: gray;
+    display: flex;
+    padding-left: 20px;
+    margin-top: 10px;
+    height: 40vh;
+}
+.footer li{
+    list-style: none;
+    margin-left: 10px;
+}
+@media only screen and (max-width: 768px)
+{
+    .Services{
+        display: flex;
+        flex-direction: row;
+        flex-wrap:wrap;
+    }
+}
+@media screen and (min-width: 900px){
+    .image img{
+        width: 50%;
+        height: 45vh;
+        float: right;
+    }
+    .touheed-img img{
+        width: 50%;
+        float: right;
+        height:55vh;
+    }
+    .touheed p{
+        width: 40%;
+        margin-left: 5rem;
+        height: 40vh;
+    }
+    .touheed h1{
+        width: 40%;
+        height: 12vh;
+        margin-left: 5rem;
+    }
+}
